@@ -1,0 +1,13 @@
+{
+  "name": "devops-ci-pipeline",
+  "version": "1.0.0",
+  "description": "Sample application for DevOps CI pipeline testing",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "node tests/app.test.js",
+    "build": "mkdir -p dist && cp src/app.js dist/app.js && echo 'Build generated on '$(date) > dist/build-info.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
