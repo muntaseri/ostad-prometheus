@@ -1,4 +1,19 @@
-# ostad-prometheus
+# Server Monitoring, Logging & CI Pipeline
+
+**Student Name:** Mohd Montaser Islam  
+**Batch:** DevOps Batch 14  
+**Assignment Title:** Server Monitoring, Logging & CI Pipeline  
+**Deadline:** 28.09.26  
+
+---
+
+## Project Overview
+This project sets up a bare-metal DevOps infrastructure on an Ubuntu server. It incorporates real-time system monitoring using Prometheus and Node Exporter, central log management using Grafana Loki and Promtail, visualization dashboards via Grafana, and automated CI using a GitHub Actions self-hosted runner.
+
+---
+
+## Architecture Diagram
+
 
 
 ## Node EXPORTER Setup
