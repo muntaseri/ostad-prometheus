@@ -235,9 +235,9 @@ sudo ./svc.sh start
 * **Self-Hosted Runner Online:**
   ![Runner Status](./screenshots/runner.jpg)
 * **Workflow Execution (Build -> Test -> Artifact):**
-  ![Workflow Success](./screenshots/workflow_success.png)
+  ![Workflow Success](./screenshots/test-build.jpg)
 * **Generated Build Artifact:**
-  ![Workflow Artifact](./screenshots/github_artifact.png)
+  ![Workflow Artifact](./screenshots/artifact.jpg)
 
 ---
 
