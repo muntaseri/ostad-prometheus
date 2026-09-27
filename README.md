@@ -200,10 +200,10 @@ sudo ./svc.sh start
 ---
 
 ## Service Endpoints
-* **Prometheus:** `http://<SERVER_IP>:9090`
-* **Node Exporter:** `http://<SERVER_IP>:9100/metrics`
-* **Grafana:** `http://<SERVER_IP>:3000`
-* **Loki:** `http://<SERVER_IP>:3100`
+* **Prometheus:** `http://100.31.194.157:9090`
+* **Node Exporter:** `http://100.31.194.157:9100/metrics`
+* **Grafana:** `http://100.31.194.157:3000`
+* **Loki:** `http://100.31.194.157:3100`
 
 ---
 
