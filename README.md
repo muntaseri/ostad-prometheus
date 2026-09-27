@@ -109,14 +109,6 @@ sudo systemctl enable --now grafana-server
 
 
 
-## Data Sources Configuration:
-
-Add Prometheus (http://localhost:9090) and Loki (http://localhost:3100) in Grafana > Connections > Data Sources.
-
-
-## Dashboard import or create
-Dashboard: Import standard Node Exporter Dashboard (Dashboard ID: 1860) or create panels using queries for:
-
 
 # Grafana Loki & Promtail Setup
 
@@ -172,6 +164,21 @@ sudo systemctl enable --now loki promtail
 
 
 
+
+
+
+
+## Data Sources Configuration:
+
+Add Prometheus (http://localhost:9090) and Loki (http://localhost:3100) in Grafana > Connections > Data Sources.
+
+
+## Dashboard import or create
+Dashboard: Import standard Node Exporter Dashboard (Dashboard ID: 1860) or create panels using queries for:
+
+
+
+
 # GitHub Actions CI with Self-Hosted Runner
 
 Go to your GitHub Repository $\rightarrow$ Settings $\rightarrow$ Actions $\rightarrow$ Runners $\rightarrow$ New self-hosted runner.
@@ -204,25 +211,25 @@ sudo ./svc.sh start
 
 ### 1. Prometheus
 * **Targets Page (Node Exporter UP):**
-  ![Prometheus Targets](./screenshots/prometheus_targets.png)
+  ![Prometheus Targets](./screenshots/prom-node-up.jpg)
 * **Prometheus Expression Browser:**
-  ![Prometheus Metrics](./screenshots/prometheus_query.png)
+  ![Prometheus Metrics](./screenshots/prom-metrics.jpg)
 
 ### 2. Node Exporter
 * **Node Exporter /metrics Endpoint:**
-  ![Node Exporter Metrics](./screenshots/node_exporter_metrics.png)
+  ![Node Exporter Metrics](./screenshots/node-metrics.jpg)
 
 ### 3. Grafana Dashboard
 * **Prometheus Datasource Connected:**
-  ![Grafana Prometheus DS](./screenshots/grafana_prometheus_ds.png)
+  ![Grafana Prometheus DS](./screenshots/grafana-connection.jpg)
 * **System Metrics Dashboard (CPU, RAM, Disk, Network):**
-  ![Grafana Dashboard](./screenshots/grafana_dashboard.png)
+  ![Grafana Dashboard](./screenshots/grafana-dash.jpg)
 
 ### 4. Loki Logging
 * **Loki Datasource Connected:**
-  ![Grafana Loki DS](./screenshots/grafana_loki_ds.png)
+  ![Grafana Loki DS](./screenshots/loki-connection.jpg)
 * **Grafana Explore Page (Log Queries via Loki):**
-  ![Loki Logs](./screenshots/loki_logs.png)
+  ![Loki Logs](./screenshots/loki-log.jpg)
 
 ### 5. GitHub Actions CI
 * **Self-Hosted Runner Online:**
