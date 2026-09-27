@@ -233,7 +233,7 @@ sudo ./svc.sh start
 
 ### 5. GitHub Actions CI
 * **Self-Hosted Runner Online:**
-  ![Runner Status](./screenshots/runner_status.png)
+  ![Runner Status](./screenshots/runner.jpg)
 * **Workflow Execution (Build -> Test -> Artifact):**
   ![Workflow Success](./screenshots/workflow_success.png)
 * **Generated Build Artifact:**
